@@ -1,0 +1,54 @@
+td {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #f2f2f2;
+   }   
+ 
+   .table-div {
+       width: 100%;
+       min-height: 45%;
+       overflow: scroll;
+   }   
+   
+.table {
+   width: 90%;
+   margin: 0 auto;
+   border-spacing: 5%;
+   color: #f2f2f2;
+   font-size: 1.3rem;
+   font-family: Arial, sans-serif;
+   font-weight: bold;
+   }
+   
+input[type=text],input[type=date] {
+      width: 350px;
+      padding:0px; 
+      padding-left: 25px; 
+      height: 40px;
+      font-size: 2rem;
+      font-weight: bold;
+      transition: box-shadow 200ms;
+      margin-bottom: 10px;
+ }
+ 
+ .formAPP .btn:active {
+	box-shadow: inset 0px 1px 20px 3px rgba(0,0,0,0.75) !important;
+	transition: box-shadow 400ms !important;
+}   
+
+.formAPP .btn {
+    padding: 5px 15px;
+    font-size: 1.2rem;
+}
+	
+.formAPP {
+    width: 250px;
+    text-align: center;
+    float: left;
+    padding-left: 25px;
+}	
+
+a{
+  margin: 10px 10px 0 0;
+  float: right;
+}

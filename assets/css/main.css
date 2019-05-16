@@ -1,0 +1,53 @@
+td {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #f2f2f2;
+   }   
+ 
+   .table-div {
+       width: 100%;
+       min-height: 45%;
+       overflow: scroll;
+   }   
+   
+.table {
+   width: 90%;
+   margin: 0 auto;
+   border-spacing: 5%;
+   color: #f2f2f2;
+   font-size: 1.3rem;
+   font-family: Arial, sans-serif;
+   font-weight: bold;
+   }
+   
+input[type=text],input[type=date] {
+                padding: 10px !important;
+                width: 250px !important;
+                margin-bottom: 10px !important;
+ }
+ 
+ .menu-container .btn:active {
+	box-shadow: inset 0px 1px 20px 3px rgba(0,0,0,0.75) !important;
+	transition: box-shadow 400ms !important;
+}   
+
+.menu-container .btn {
+    padding: 5px 15px;
+    font-size: 1.2rem;
+}
+
+.menu {
+  min-height: 160px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  bottom: 120;
+}
+	
+.menu-container {
+    width: 250px;
+    text-align: center;
+}	
